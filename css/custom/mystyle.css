@@ -1,0 +1,391 @@
+.header-slider-bgimage1, .header-slider-bgimage2, .header-slider-bgimage3 {
+    background: #66cdcc;
+    /* Old browsers */
+    background: -moz-linear-gradient(-50deg, #66cdcc 0%, #336799 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-50deg, #66cdcc 0%, #336799 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(-50deg, #66cdcc 0%, #336799 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(-50deg, #66cdcc 0%, #336799 100%);
+    /* IE10+ */
+    background: linear-gradient(-50deg, #66cdcc 0%, #336799 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, 
+
+GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.row h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    /* margin: 10px 0; */
+    margin-top: 10px;
+}
+
+#about-us h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+#services h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+#biomedical h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    /* margin: 10px auto; */
+}
+
+ul li {
+    /* list-style: none; */
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 2.5;
+    list-style-type: square;
+    color: #787676;
+}
+
+#pulmonary h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+.sub-li {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: lighter;
+    list-style-type: square;
+    color: #666666;
+    list-style: none;
+}
+
+#ortho h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+#dentistry h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+.cus_para_sent {
+    font-size: 15pt;
+    font-family: 'Lato', Arial;
+    font-weight: 300;
+}
+.cus_para_li {
+    font-size: 14pt;
+    font-family: 'Lato', Arial;
+    font-weight: 300;
+}
+.cus_heading {
+    font-size: 32px;
+    font-weight: 300;
+}
+.cus-li {
+    line-height: 300%;
+    font-size: 15pt;
+    font-family: 'Lato', Arial;
+    /* font-weight: 400; */
+    text-align: justify;
+}
+@media screen and (max-width: 999px) and (min-width: 300px) {
+    .cus_heading {
+        font-size: 30px;
+    }
+}
+.cus_para_footer {
+    font-size: 12pt;
+    font-weight: 300;
+}
+.cus_case_study {
+    font-size: 12pt;
+    font-family: 'Lato', Arial;
+}
+
+.carousel-bg .carousel-inner .item {
+    min-height: 300px;
+}
+
+@media screen and (max-width:1000px ) and (min-width: 652px) {
+    .carousel-bg .carousel-inner .item {
+        min-height: 500px !important;
+    } 
+}
+@media screen and (max-width:651px ) and (min-width: 430px) {
+    .carousel-bg .carousel-inner .item {
+        min-height: 600px !important;
+    } 
+}
+@media screen and (max-width:429px ) and (min-width: 300px) {
+    .carousel-bg .carousel-inner .item {
+        min-height: 800px !important;
+    } 
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #66cdcc;
+    margin: 0px;
+}
+.carousel-indicators .active {
+    background-color: #999999;
+    width: 15px;
+    height: 15px;
+    margin: 0px;
+}
+.review_images {
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+}
+#executive_board h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+#technical_board h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+#Transformation h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+#contact h1::after {
+    width: 50px;
+    height: 4px;
+    content: "";
+    background: #66cdcc;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 724px) and (min-width: 300px) {
+    .col-md-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 57px;
+    padding-left: 57px;
+    }
+    .col-md-3 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 57px;
+        padding-left: 57px;
+        }
+}
+.social {
+    display: block;
+    margin-top: 9px;
+}
+.social a {
+    margin: 0 8px;
+    padding: 9px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+}
+.social a i {
+    width: 1em;
+}
+.social a {
+    border: 1px solid #f3f3f3;
+}
+.social a i {
+    color: #f3f3f3;
+    font-size: 21px;
+}
+.social a:hover {
+    background: #f3f3f3;
+}
+.social a:hover i {
+    color: #66cdcc;
+}
+.para-btn {
+    background-color: #f3f3f3;
+    border: 2px solid #dcdcdc;
+    border-radius: 3px;
+    color: #333333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 300ms ease-in
+}
+.para-btn:hover {
+    color: #333333;
+    background-color: #dcdcdc;
+    border: 1px solid transparent;
+}
+.case-study-btn {
+    background-color: #f3f3f3;
+    border: 2px solid #66cdcc;
+    border-radius: 3px;
+    color: #66cdcc;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 300ms ease-in;
+    margin-top: 15px;
+
+}
+.case-study-btn:hover {
+    color: #f3f3f3;
+    background-color: #66cdcc;
+    border: 1px solid transparent;
+}
+/* .media svg {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding: 10px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 1.9em;
+    text-align: center;
+}
+.media svg {
+    border: 2px solid #66cdcc;
+    color: #66cdcc;
+    border-radius: 50%;
+} */
+.media a {
+    color: #66cdcc;
+}
+/* .media:hover svg {
+    color: #ffffff;
+    background: #66cdcc;
+}
+.media:hover h3 {
+    color: #66cdcc;
+} */
+.media-heading {
+    margin-top: 7px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.navbar-collapse.in {
+    overflow: hidden;
+}
+.st0 {
+    fill: none;
+    stroke: #f3f3f3;
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+@media screen and (max-width:1199px) and (min-width:990px) {
+    .img-slide {
+        margin-top: 24rem;
+    }
+}
+@media screen and (max-width:2560px) and (min-width: 1200px) {
+    .img-slide {
+        margin-top: 17rem;
+    }
+}
+.hemo-cus {
+    line-height: 1.5;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.study-cus {
+    line-height: 1.5;
+    margin-bottom: 7px;
+}
+.section-footer a {
+    color: #f3f3f3;
+    font-weight: 300;
+}
+ .footer-menu {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.35;
+    text-transform: uppercase;
+ }
+ .scroll_top a {
+    background: #66cdcc;
+    padding: 14px 18px 14px 17px
+ }
+ .scroll_top a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+
